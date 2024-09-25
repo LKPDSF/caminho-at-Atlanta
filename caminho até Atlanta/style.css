@@ -1,0 +1,28 @@
+body{
+    background-color: pink;
+    color:black;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    height: 70px;
+    margin: 0;
+} 
+button{
+    background-color: aqua;
+    color:black;
+    font-family: "Playfair Display", serif;
+}
+.passo {
+    display: none;
+}
+.passo.ativo{
+    display:block;
+}
+main { 
+    max-width: 90%;
+    text-align: center;
+}
+img{
+    max-width: 90%
+}
